@@ -1,0 +1,88 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/102815/280/1/147840447-102815891-1568785088.jpg",
+      "title": "Odoky Axxitude Men Multicolor Round Neck...",
+      "price": "409",
+      "mainPrice": "1099",
+      "off": "63%"
+    },
+    {
+      "id": "2",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/97178/280/1/143855284-97178489-1559802229.jpg",
+      "title": "Odoky Men Color Block Round Neck Multicolo...",
+      "price": "439",
+      "mainPrice": "999",
+      "off": "56%"
+    },
+    {
+      "id": "3",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/114604/280/1/152490260-114604641-1625652916.jpg",
+      "title": "Odoky Olive Black &Orange Round Neck T-...",
+      "price": "319",
+      "mainPrice": "999",
+      "off": "68%"
+    },
+    {
+      "id": "4",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/99738/280/1/145797985-99738125-1556899919.jpg",
+      "title": "Odoky Multicolor Cotton Color Block Roun...",
+      "price": "269",
+      "mainPrice": "1999",
+      "off": "87%"
+    },
+    {
+      "id": "5",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/105074/280/1/149074133-105074741-1582107443.jpg",
+      "title": "Odoky Color Blocked Men's Cotton Tshirt...",
+      "price": "299",
+      "mainPrice": "999",
+      "off": "70%"
+    },
+    {
+      "id": "6",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/111843/280/1/151346207-111843447-1604067652.jpg",
+      "title": "Odoky Multi Color Cotton Half Sleeve T-Shirt",
+      "price": "299",
+      "mainPrice": "999",
+      "off": "70%"
+    },
+    {
+      "id": "7",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/111843/280/1/151346195-111843403-1604067622.jpg",
+      "title": "Odoky Multi Color Cotton Half Sleeve T-Shirt",
+      "price": "239",
+      "mainPrice": "1098",
+      "off": "78%"
+    },
+    {
+      "id": "8",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/114604/280/1/152490258-114604639-1625652905.jpg",
+      "title": "Odoky Men Black Printed Snake Round Neck...",
+      "price": "259",
+      "mainPrice": "999",
+      "off": "74%"
+    }
+  ],
+  "cart": [
+    {
+      "id": "8",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/114604/280/1/152490258-114604639-1625652905.jpg",
+      "title": "Odoky Men Black Printed Snake Round Neck...",
+      "price": "259",
+      "mainPrice": "999",
+      "off": "74%",
+      "queinty": 1
+    },
+    {
+      "id": "8",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/114604/280/1/152490258-114604639-1625652905.jpg",
+      "title": "Odoky Men Black Printed Snake Round Neck...",
+      "price": "259",
+      "mainPrice": "999",
+      "off": "74%",
+      "queinty": 1
+    }
+  ]
+}
