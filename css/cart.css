@@ -5,8 +5,58 @@
 }
 #Add{
     width: 30px;
-    background-color: #DDDDDD;
+    background-color: #ececec;
     border-radius: 50%;
     height: 30px;
     text-align: center;
+    font-weight: bold;
+}
+#cartBox{
+     padding: 20px;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-top: 1px solid rgb(218, 217, 217);
+}
+#main #text{
+    display: flex;
+    width: 85%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#main #img{
+    height: 120px;
+    border: 1px solid rgb(197, 197, 197);
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#main #img img{
+    width: 100px;
+}
+#delete{
+  text-align: center;
+  color:#05A2B3;
+  width: 100px;
+  margin-top: 5px;
+}
+#pr{
+    font-size: 14px;
+    font-weight: 500;
+}
+#price{
+    font-weight: 700;
+    font-size: 18px;
+}
+#itemTotal{
+    text-align: right;
+    width: 250px;
+}
+#tex{
+    color: gray;
+    font-size: 10px;
 }
