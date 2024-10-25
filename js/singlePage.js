@@ -32,7 +32,7 @@ function singlePageView(ele){
         <img src="https://images.shopclues.com/images/ui/madeinindia.png" id="logomain">
         <span id="price">₹${ele.price}</span>
         <span id="mainPrice">MRP: ₹${ele.mainPrice}</span>
-        <span id="off">${ele.off} Off</span><br><br>
+        <span id="off">${ele.off}% Off</span><br><br>
         <p id="title">Select Size Men's Upper</p>
           <button id="size">M</button>
           <button id="size">L</button>
@@ -51,17 +51,45 @@ function singlePageView(ele){
 
 function AddCart(res){
 
-    fetch(`http://localhost:3000/cart`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({...res,queinty: 1})
+  fetch(`http://localhost:3000/cart?id=${res.id}`)
+  .then((r)=>{return r.json()})
+  .then((Res)=>{
+       if(Res.length > 0){
+        Swal.fire({
+          position: "top-end",
+          icon: "error",
+          title: "Item is Already Present in Cart....",
+          showConfirmButton: false,
+          timer: 1500
         })
-        .then((r)=>r.json())
-        .then((res)=>console.log(res))
-        .catch((err)=>console.log(err)) 
+       }
+       else{
+        fetch(`http://localhost:3000/cart`,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({...res,queinty: 1})
+          })
+          .then((r)=>r.json())
+          .then((res)=>console.log(res),
+          Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Item is Successfully add in Cart...",
+            showConfirmButton: false,
+            timer: 1500
+          })
+        )
+          .catch((err)=>
+            console.log(err),
+         
+        ) 
+       }
+  })
+
+   
 }
    
 
