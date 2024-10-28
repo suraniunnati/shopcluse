@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .part1{
-    height: 800px;
+    height: 850px;
     /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
@@ -12,13 +12,38 @@
     padding: 1%;
 }
 .part1 #menu{
-    width: 20%;
+    width: 18%;
     background-color: white;
     height: 100%;
     border-radius: 5px;
+    overflow: auto;
+    padding: 20px;
+}
+.part1 #menu input{
+    margin-top: 10px;
+}
+.part1 #menu span{
+    color: gray;
+    font-size: 14px;
+}
+.part1 #menu h6{
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+.part1 #menu p{
+    font-size: 14px;
+    margin-left: 10px;
+    color: rgb(91, 91, 91);
+}
+.part1 #menu .set3{
+    height: 250px;
+    border-bottom: 1px solid rgb(233, 225, 225);
+    overflow: auto;
+    padding: 10px;
 }
 .part1 #items{
-    width: 77%;
+    width: 80%;
     background-color: white;
     overflow: auto;
     border-radius: 5px;
@@ -30,6 +55,13 @@
     padding: 20px;
  
 }
+#aside{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+
 #main{
     height: 430px;
     padding: 10px;
@@ -75,6 +107,49 @@
     font-size: 10px;
     color: gray;
 }
-::-webkit-scrollbar{
+#items::-webkit-scrollbar,#menu::-webkit-scrollbar{
     width: 10px;
+}
+#menu .set3::-webkit-scrollbar{
+    width: 5px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+}
+#menu .set3::-webkit-scrollbar-thumb{
+    background-color: #adadad;
+    border-radius: 10px;
+}
+
+@media(max-width:992px){
+    #productBox{
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+}
+
+@media(max-width:576px){
+    #productBox{
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+}
+@media(max-width:490px){
+    #productBox{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    #aside{
+        display: block;
+    }
+    .part1 #menu{
+        display: none;
+        position: absolute;
+        top: 40px;
+        width: 70%;
+        box-shadow: 0 0 5px 0 rgb(217, 217, 217);
+        z-index: 1;
+    }
+    .part1 #items{
+        width: 100%;
+    }
 }
