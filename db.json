@@ -127,6 +127,30 @@
       "price": "532",
       "mainPrice": "1699",
       "off": "69"
+    },
+    {
+      "id": "17",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/105478/280/1/149231375-105478845-1590328820.jpg",
+      "title": "T Shirt",
+      "price": "499",
+      "mainPrice": "999",
+      "off": "50"
+    },
+    {
+      "id": "18",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/94846/280/1/142479694-94846536-1662624714.jpg",
+      "title": "Myky White Regular Fit Solid For Men Pack...",
+      "price": "899",
+      "mainPrice": "1998",
+      "off": "55"
+    },
+    {
+      "id": "19",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/116969/280/1/153320627-116969820-1678924928.jpg",
+      "title": "FastB Men Printed Round Neck Black T-Sh...",
+      "price": "649",
+      "mainPrice": "899",
+      "off": "28"
     }
   ],
   "cart": [

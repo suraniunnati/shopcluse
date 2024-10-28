@@ -40,11 +40,18 @@ function singlePageView(ele){
           <button id="off">size chart</button>
           <br>
           <button id="cart" >ADD TO CART</button>
-           <button id="buy" >BUY NOW</button>
+           <button id="buy" >BUY NOW</button><br>
+
+          <input type="text" placeholder="Enter pincode for delivery" id="pincode">
+          <button id="pincodeCheck">Check</button><br><br>
 
        <h6 id="free"><i class="fa-solid fa-truck"></i> Free Shipping</h6>
+       <h6 id="free"><i class="fa-solid fa-check"></i> Delivered 2-5 Business Days</h6>
+       <h6 id="free"><i class="fa-solid fa-check"></i> COD Available</h6>
       <p id="pay"><i class="fa-regular fa-share-from-square"></i> Easy Replacement Only</p>
       <p id="pay"><i class="fa-regular fa-credit-card"></i> Payment Options: (Credit Card , Debit Card , Net Banking , Wallets , COD)</p>
+
+      
     </div>
     `
 }
