@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    /* background-color: #24A3B5    ; */
+
 }
+
 header{
     width: 100%;
     height: 35px;
@@ -111,7 +113,7 @@ color: rgb(114, 114, 114);
     color: white;            
     box-shadow: 0 0 20px #eee;
     display: block;
-    border-radius: 5px;
+    border-radius: 0px 5px 5px 0px;
 }
          
 
@@ -165,14 +167,35 @@ color: rgb(114, 114, 114);
     border-radius: 10px;
     
  }
- .v11{
+ .V11{
     width: 100%;
     height: 350px;
     /* border: 1px solid black; */
-   
+   animation: Autoimg;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-direction: normal;
+   /* background-image: url(/image/Auto-img\ \(1\).jpg); */
+   /* background-color: red; */
+   /* background-image: url(/asstes/a1\ \(1\).jpg); */
+   /* background-image: url(https://cdn.shopclues.com/images/banners/2024/June/11/Hyper-deal-web-12June24.jpg) !important; */
+   /* z-index: 1; */
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 
     }
-   
+   @keyframes Autoimg{
+      10%{
+         background-image: url(https://cdn.shopclues.com/images/banners/2024/Oct/24/Health_Web.jpg)  !important;
+      }
+      50%{
+      background-image: url(https://cdn.shopclues.com/images/banners/2024/Oct/21/Diwali_Decor_Web_21Oct24.jpg) !important;
+      }
+      100%{
+         background-image: url(https://cdn.shopclues.com/images/banners/2024/Oct/24/Health_Web.jpg) !important;
+      }
+   }
  .v22{
     width: 100%;
     height: 100px;
@@ -214,6 +237,7 @@ color: rgb(114, 114, 114);
     margin-left: 40px;
     font-size: 25px;
     font-weight: 600;
+    background-color:#E9F6F7;
  }
  .parent1{
     width: 100%;
@@ -222,20 +246,17 @@ color: rgb(114, 114, 114);
     background-color: #EFF7FA;
  }
  .part{
-    width: 600px;
+   width: 100%;
     height: 300px;
-    /* border: 1px solid black; */
+    /* border: 1px solid black;  */
     /* margin-top: 30px; */
     background-color: white;
  }
  #wer{
-    width: 80%;
+    width: 50%;
     height: 136px;
  }
- #za{
-    background-color:white ;
-    overflow: hidden;
- }
+ 
 
  .part2{
    width: 100%;
@@ -252,17 +273,19 @@ color: rgb(114, 114, 114);
  }
 .part3{
    width: 100%;
-   height: 250px;
+   height: 350px;
    /* border: 1px solid black; */
    display: flex;
    justify-content: space-evenly;
    align-items: center;
-  background-color: white;
+   
+   background-color: #EFF7FA;
 }
 .cv1{
    width: 30%;
    height: 250px;
    /* border: 1px solid black; */
+   background-color: white;
 }
 .cv1 img{
    height: 160px;
@@ -279,14 +302,15 @@ color: rgb(114, 114, 114);
 }
 footer{
    width: 100%;
-   height: 400px;
-   /* border: 1px solid black; */
-   background-color: white;
+   height: 500px;
+
+   border-top: 1px solid lightgray;
+   background-color:white;
 }
 .vidhi1{
    width: 100%;
    height: 200px;
-   border: 1px solid black;
+   border-bottom: 1px solid lightgray;
    background-color: white;
    display: flex;
    justify-content: space-evenly;
@@ -295,14 +319,17 @@ footer{
 
 .vidhi2{
    width: 100%;
-   height: 400px;
-   border: 1px solid black;
-   background-color: white;
+   height: 300px;
+   border-bottom: 1px solid lightgray;
+   /* background-color: white; */
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
 }
 .p1{
    width: 30%;
    height: 170px;
-   border: 1px solid black;
+   border-left: 1px solid lightgray;
    background-color: white;
 
 }
@@ -310,7 +337,60 @@ footer{
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-top: 50px;
-   font-size: 20px;
+   margin-top: 30px;
+   font-size: 30px;
    color: #24A3B5;
+}
+.p1 p{
+   text-align: center;
+   color: rgb(114, 114, 114);
+   font-size: 20px;
+}
+.hu{
+   width: 20%;
+   height: 350px;
+   /* border: 1px solid black; */
+   
+}
+.MINU{
+   width: 100%;
+   height: 200PX;
+   /* border: 1PX solid black; */
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.heer1{
+   width: 40%;
+   height: 150px;
+   /* border: 1px solid black; */
+}
+.heer2{
+   width: 70%;
+   height: 150px;
+   /* border: 1px solid black; */
+}
+.heer1 h5{
+font-weight: bold;
+margin-left: 20px;
+}
+.heer1 i{
+   color: #24A3B5;
+   font-size: 25px;
+   margin-left: 20px;
+}
+.heer2 h5{
+   font-weight: bold;
+margin-left: 100px;
+}
+
+.heer2 img{
+   width: 600px;
+   margin-left: 100px;
+}
+.misu{
+   width: 100%;
+   height: 700px;
+   /* border: 1px solid black; */
+   /* background-color: #E9F6F7; */
 }
