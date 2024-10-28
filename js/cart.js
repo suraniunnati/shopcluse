@@ -8,30 +8,37 @@ function AddToCart(){
 }
 
 function cartView(arr){
+    let add = 0;
     return arr.map((ele)=>{
+        add+=ele.price*ele.queinty
+        document.getElementById("price").innerHTML="Grand Total : ₹" + add.toFixed(2);
         return `
              <div id="main">
          <div id="img">
-         <i class="fa-regular fa-heart" style="color: #c2c2c2;" id="like"></i>
          <img src="${ele.img}">
          </div>
         <div id="text">
         <p id="title">${ele.title}</p>
-         <i class="fa-solid fa-star fa-2xs" style="color: #e8ba11;"></i>
-       <i class="fa-solid fa-star fa-2xs" style="color: #e8ba11;"></i>
-       <i class="fa-solid fa-star fa-2xs" style="color: #e8ba11;"></i>
-       <i class="fa-solid fa-star fa-2xs" style="color: #e8ba11;"></i>
-       <i class="fa-solid fa-star fa-2xs" style="color: #dedede;"></i>
-        <img src="https://images.shopclues.com/images/ui/madeinindia.png" id="logomain">
-        <span id="price">₹${ele.price}</span>
-        <span id="mainPrice">₹${ele.mainPrice}</span>
-        <span id="off">${ele.off} Off</span><br><br>
 
-        <button onclick="Addcart(${ele.id} , ${ele.queinty} , 'dec')" id="Add">-</button>
+        <div>
+         <button onclick="Addcart(${ele.id} , ${ele.queinty} , 'dec')" id="Add">-</button>
         <input type="text" value="${ele.queinty}" disabled id="quan">
         <button onclick="Addcart(${ele.id} , ${ele.queinty} , 'inc')" id="Add">+</button>
         <br>
-        <button onclick="del(${ele.id})">Delete </button>
+        <button onclick="del(${ele.id})" id="delete"> Remove </button>
+        </div>
+
+        <div id="">
+         <span id="pr">Price : ₹${ele.mainPrice *  ele.queinty}</span><br>
+           <span id="pr">Discount : -₹${(ele.mainPrice * ele.off/100 *  ele.queinty).toFixed(0)}</span>
+           <br>
+           <span id="pr">Shipping Fee : FREE</span>
+        </div>
+        <div id="itemTotal">
+            <span id="price"> ₹${ele.price * ele.queinty}</span>
+            <p id="tex">Inclusive of all the applicable</p>
+            <p id="tex">taxes</p>
+        </div>
         </div>
         `
     }).join("")

@@ -23,7 +23,7 @@ function ProductView(arr) {
         <p id="title">${ele.title}</p>
         <span id="price">₹${ele.price}</span>
         <span id="mainPrice">₹${ele.mainPrice}</span>
-        <span id="off">${ele.off} Off</span><br>
+        <span id="off">${ele.off}% Off</span><br>
        <i class="fa-solid fa-star fa-2xs" style="color: #e8ba11;"></i>
        <i class="fa-solid fa-star fa-2xs" style="color: #e8ba11;"></i>
        <i class="fa-solid fa-star fa-2xs" style="color: #e8ba11;"></i>
