@@ -63,6 +63,94 @@
       "price": "259",
       "mainPrice": "999",
       "off": "74"
+    },
+    {
+      "id": "9",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/115432/280/1/152758983-115432191-1662099155.jpg",
+      "title": "Odoky Men's Ganesha Printed Half Sleeves...",
+      "price": "299",
+      "mainPrice": "999",
+      "off": "70"
+    },
+    {
+      "id": "10",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/104239/280/1/148699721-104239261-1668507497.jpg",
+      "title": "ROARERS Men's Silver Hooded T-Shirt",
+      "price": "349",
+      "mainPrice": "1099",
+      "off": "68"
+    },
+    {
+      "id": "11",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/108540/280/1/150356721-108540313-1678933181.jpg",
+      "title": "Half Sleeve Polyester Round Neck Printed...",
+      "price": "139",
+      "mainPrice": "999",
+      "off": "86"
+    },
+    {
+      "id": "12",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/26953/280/1/90098317-26953753-1662630196.jpg",
+      "title": "DNA Solid Men T Shirt half sleeve fabric 100...",
+      "price": "1600",
+      "mainPrice": "2000",
+      "off": "20"
+    },
+    {
+      "id": "13",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/110834/280/1/151037323-110834669-1601905704.jpg",
+      "title": "MEN'S CASUAL POLO TSHIRT",
+      "price": "1599",
+      "mainPrice": "2999",
+      "off": "47"
+    },
+    {
+      "id": "14",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/117424/280/1/153459972-117424534-1699512607.jpg",
+      "title": "Sthulas Printed Men Round Neck Black T-...",
+      "price": "699",
+      "mainPrice": "1299",
+      "off": "46"
+    },
+    {
+      "id": "15",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/115930/280/1/152920954-115930143-1643709917.jpg",
+      "title": "UDNAG Unisex Round Neck Graphic 'Deat...",
+      "price": "399",
+      "mainPrice": "1999",
+      "off": "80"
+    },
+    {
+      "id": "16",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/92266/280/1/140762259-92266315-1666994107.jpg",
+      "title": "Raabta Fashion Black Yellow Grey Patchw...",
+      "price": "532",
+      "mainPrice": "1699",
+      "off": "69"
+    },
+    {
+      "id": "17",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/105478/280/1/149231375-105478845-1590328820.jpg",
+      "title": "T Shirt",
+      "price": "499",
+      "mainPrice": "999",
+      "off": "50"
+    },
+    {
+      "id": "18",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/94846/280/1/142479694-94846536-1662624714.jpg",
+      "title": "Myky White Regular Fit Solid For Men Pack...",
+      "price": "899",
+      "mainPrice": "1998",
+      "off": "55"
+    },
+    {
+      "id": "19",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/116969/280/1/153320627-116969820-1678924928.jpg",
+      "title": "FastB Men Printed Round Neck Black T-Sh...",
+      "price": "649",
+      "mainPrice": "899",
+      "off": "28"
     }
   ],
   "cart": [
@@ -91,6 +179,15 @@
       "price": "259",
       "mainPrice": "999",
       "off": "74",
+      "queinty": 1
+    },
+    {
+      "id": "4",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/99738/280/1/145797985-99738125-1556899919.jpg",
+      "title": "Odoky Multicolor Cotton Color Block Roun...",
+      "price": "269",
+      "mainPrice": "1999",
+      "off": "87",
       "queinty": 1
     }
   ]
