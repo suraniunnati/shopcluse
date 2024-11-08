@@ -151,34 +151,124 @@
       "price": "649",
       "mainPrice": "899",
       "off": "28"
+    },
+    {
+      "id": "20",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/112977/280/1/151903942-112977432-1664652626.jpg",
+      "title": "Ruggstar Men Grey Round Neck Polyester T...",
+      "price": "179",
+      "mainPrice": "699",
+      "off": "74"
+    },
+    {
+      "id": "21",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/114772/280/1/152543927-114772535-1668508691.jpg",
+      "title": "Red Leaf Navy Colour block Men dry-fit Ts...",
+      "price": "199",
+      "mainPrice": "599",
+      "off": "67"
+    },
+    {
+      "id": "22",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/116338/280/1/153074117-116338862-1654685741.jpg",
+      "title": "Ruggstar best hot selling cotton t-shirt for...",
+      "price": "169",
+      "mainPrice": "599",
+      "off": "72"
+    },
+    {
+      "id": "23",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/116691/280/1/153189508-116691312-1671794928.jpg",
+      "title": "29K Mens Round Neck Half Sleeve Printed...",
+      "price": "179",
+      "mainPrice": "499",
+      "off": "64"
+    },
+    {
+      "id": "24",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/116800/280/1/153267408-116800314-1678945538.jpg",
+      "title": "FastBend 4 x 4 offroad expedition Tshirt...",
+      "price": "799",
+      "mainPrice": "899",
+      "off": "11"
+    },
+    {
+      "id": "25",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/116969/280/1/153320638-116969836-1678938367.jpg",
+      "title": "FastB Men Typography Round Neck White...",
+      "price": "649",
+      "mainPrice": "899",
+      "off": "28"
+    }
+  ],
+  "product2": [
+    {
+      "id": "51",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/73438/320/320/130263874-73438773-1662584725.jpg",
+      "title": "Bhuwal Fashion Beige Lycra Saree...",
+      "price": "879",
+      "mainPrice": "2599",
+      "off": "66"
+    },
+    {
+      "id": "52",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/90637/320/320/140074406-90637959-1660929891.jpg",
+      "title": "Fabster Women's smart fit straight multi Colour Kurti...",
+      "price": "479",
+      "mainPrice": "999",
+      "off": "52"
+    },
+    {
+      "id": "53",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/73439/320/320/130264833-73439949-1664743506.jpg",
+      "title": "Bhuwal Fashion Red Lycra Saree...",
+      "price": "699",
+      "mainPrice": "2110",
+      "off": "67"
+    },
+    {
+      "id": "54",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/25723/320/320/100431306-25723328-1660925949.jpg",
+      "title": "Top Ethnic Present Blue Beautiful Gown",
+      "price": "899",
+      "mainPrice": "1499",
+      "off": "40"
+    },
+    {
+      "id": "55",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/112875/320/320/151853656-112875237-1610362520.jpg",
+      "title": "Ishrin Dress Materials",
+      "price": "567",
+      "mainPrice": "2499",
+      "off": "77"
     }
   ],
   "cart": [
     {
-      "id": "8",
-      "img": "https://cdn.shopclues.com/images1/thumbnails/114604/280/1/152490258-114604639-1625652905.jpg",
-      "title": "Odoky Men Black Printed Snake Round Neck...",
-      "price": "259",
-      "mainPrice": "999",
-      "off": "74",
+      "id": "1",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/102815/280/1/147840447-102815891-1568785088.jpg",
+      "title": "Odoky Axxitude Men Multicolor Round Neck...",
+      "price": "409",
+      "mainPrice": "1099",
+      "off": "63",
       "queinty": 1
     },
     {
-      "id": "4",
-      "img": "https://cdn.shopclues.com/images1/thumbnails/99738/280/1/145797985-99738125-1556899919.jpg",
-      "title": "Odoky Multicolor Cotton Color Block Roun...",
-      "price": "269",
-      "mainPrice": "1999",
-      "off": "87",
+      "id": "18",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/94846/280/1/142479694-94846536-1662624714.jpg",
+      "title": "Myky White Regular Fit Solid For Men Pack...",
+      "price": "899",
+      "mainPrice": "1998",
+      "off": "55",
       "queinty": 1
     },
     {
-      "id": "2",
-      "img": "https://cdn.shopclues.com/images1/thumbnails/97178/280/1/143855284-97178489-1559802229.jpg",
-      "title": "Odoky Men Color Block Round Neck Multicolo...",
-      "price": "439",
-      "mainPrice": "999",
-      "off": "56",
+      "id": "53",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/73439/320/320/130264833-73439949-1664743506.jpg",
+      "title": "Bhuwal Fashion Red Lycra Saree...",
+      "price": "699",
+      "mainPrice": "2110",
+      "off": "67",
       "queinty": 1
     }
   ],
