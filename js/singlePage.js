@@ -15,6 +15,24 @@ function singlrPage(){
     })
 }
 
+function singlrPage2(){
+  let data = new URLSearchParams(window.location.search);
+  let id = data.get("id");
+
+  fetch(`http://localhost:3000/product2/${id}`)
+  .then((r)=>{
+      return r.json()
+  })
+  .then((res)=>{
+      console.log(res)
+      document.getElementById("singleBox").innerHTML= singlePageView(res)
+      document.getElementById("cart").addEventListener("click",()=>{
+          AddCart(res)
+        })
+  })
+}
+
+
 function singlePageView(ele){
     return `
          <div id="main">
@@ -63,7 +81,7 @@ function AddCart(res){
   .then((Res)=>{
        if(Res.length > 0){
         Swal.fire({
-          position: "top-end",
+          position: "center",
           icon: "error",
           title: "Item is Already Present in Cart....",
           showConfirmButton: false,
@@ -82,7 +100,7 @@ function AddCart(res){
           .then((r)=>r.json())
           .then((res)=>console.log(res),
           Swal.fire({
-            position: "top-end",
+            position: "center",
             icon: "success",
             title: "Item is Successfully add in Cart...",
             showConfirmButton: false,
@@ -101,3 +119,4 @@ function AddCart(res){
    
 
 singlrPage()
+singlrPage2()
