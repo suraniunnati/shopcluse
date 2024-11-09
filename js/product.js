@@ -7,6 +7,10 @@ function product() {
         .then((res) => {
             console.log(res)
             document.getElementById("productBox").innerHTML=ProductView(res)
+
+            document.getElementById("like").addEventListener("click",()=>{
+                AddLike(res)
+            })
             
             let PR = document.getElementById("rs")
             PR.addEventListener("change",function(){
@@ -119,6 +123,8 @@ function fil3(arr){
 function fil4(arr){
     return arr.filter((ele) => ele.price >= 1000); 
 }
+ 
+    
 
 product()
 
