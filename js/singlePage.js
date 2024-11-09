@@ -12,6 +12,10 @@ function singlrPage(){
         document.getElementById("cart").addEventListener("click",()=>{
             AddCart(res)
           })
+          document.getElementById("like").addEventListener("click",()=>{
+            document.getElementById("like").style.color = "red" 
+            AddLike(res)
+          })
     })
 }
 
@@ -28,6 +32,10 @@ function singlrPage2(){
       document.getElementById("singleBox").innerHTML= singlePageView(res)
       document.getElementById("cart").addEventListener("click",()=>{
           AddCart(res)
+        })
+        document.getElementById("like").addEventListener("click",()=>{
+          document.getElementById("like").style.color = "red" 
+          AddLike(res)
         })
   })
 }
@@ -116,7 +124,36 @@ function AddCart(res){
 
    
 }
+ 
+function AddLike(res){
+
+  fetch(`http://localhost:3000/like?id=${res.id}`)
+  .then((r)=>{return r.json()})
+  .then((Res)=>{
+       if(Res.length > 0){
+       }
+       else{
+        fetch(`http://localhost:3000/like`,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({...res,queinty: 1})
+          })
+          .then((r)=>r.json())
+          .then((res)=>console.log(res),
+        )
+          .catch((err)=>
+            console.log(err),
+         
+        ) 
+       }
+  })
+
    
+} 
+
 
 singlrPage()
 singlrPage2()

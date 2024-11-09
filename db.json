@@ -203,7 +203,7 @@
   ],
   "product2": [
     {
-      "id": "51",
+      "id": "41",
       "img": "https://cdn.shopclues.com/images1/thumbnails/73438/320/320/130263874-73438773-1662584725.jpg",
       "title": "Bhuwal Fashion Beige Lycra Saree...",
       "price": "879",
@@ -211,7 +211,7 @@
       "off": "66"
     },
     {
-      "id": "52",
+      "id": "42",
       "img": "https://cdn.shopclues.com/images1/thumbnails/90637/320/320/140074406-90637959-1660929891.jpg",
       "title": "Fabster Women's smart fit straight multi Colour Kurti...",
       "price": "479",
@@ -219,7 +219,7 @@
       "off": "52"
     },
     {
-      "id": "53",
+      "id": "43",
       "img": "https://cdn.shopclues.com/images1/thumbnails/73439/320/320/130264833-73439949-1664743506.jpg",
       "title": "Bhuwal Fashion Red Lycra Saree...",
       "price": "699",
@@ -227,7 +227,7 @@
       "off": "67"
     },
     {
-      "id": "54",
+      "id": "44",
       "img": "https://cdn.shopclues.com/images1/thumbnails/25723/320/320/100431306-25723328-1660925949.jpg",
       "title": "Top Ethnic Present Blue Beautiful Gown",
       "price": "899",
@@ -235,24 +235,55 @@
       "off": "40"
     },
     {
-      "id": "55",
+      "id": "45",
       "img": "https://cdn.shopclues.com/images1/thumbnails/112875/320/320/151853656-112875237-1610362520.jpg",
       "title": "Ishrin Dress Materials",
       "price": "567",
       "mainPrice": "2499",
       "off": "77"
+    },
+    {
+      "id": "46",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/89066/320/320/139435850-89066210-1664742947.jpg",
+      "title": "Bhuwal Fashion Chanderi Saree-BF5061PINK",
+      "price": "519",
+      "mainPrice": "1999",
+      "off": "74"
+    },
+    {
+      "id": "47",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/115839/320/320/152890831-115839118-1678911045.jpg",
+      "title": "BHAGYASHRAY Solid RED Crepe and Rasal Net Straigth Kur",
+      "price": "339",
+      "mainPrice": "1999",
+      "off": "83"
+    },
+    {
+      "id": "48",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/117491/320/320/153478810-117491844-1704962765.jpg",
+      "title": "Yuvaa Flared/A-Line Gown (Pink)",
+      "price": "649",
+      "mainPrice": "1299",
+      "off": "50"
+    },
+    {
+      "id": "49",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/104418/320/320/148771027-104418723-1578332410.jpg",
+      "title": "Green Vanarasi Silk With Blouse And Body Embroidery",
+      "price": "1500",
+      "mainPrice": "1600",
+      "off": "6"
+    },
+    {
+      "id": "50",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/117501/320/320/153481751-117501704-1705478765.jpg",
+      "title": "Cholii Black Owl Womens Cotton Satin Black Deep V-Neck",
+      "price": "1999",
+      "mainPrice": "2500",
+      "off": "20"
     }
   ],
   "cart": [
-    {
-      "id": "1",
-      "img": "https://cdn.shopclues.com/images1/thumbnails/102815/280/1/147840447-102815891-1568785088.jpg",
-      "title": "Odoky Axxitude Men Multicolor Round Neck...",
-      "price": "409",
-      "mainPrice": "1099",
-      "off": "63",
-      "queinty": 1
-    },
     {
       "id": "18",
       "img": "https://cdn.shopclues.com/images1/thumbnails/94846/280/1/142479694-94846536-1662624714.jpg",
@@ -261,14 +292,34 @@
       "mainPrice": "1998",
       "off": "55",
       "queinty": 1
+    }
+  ],
+  "like": [
+    {
+      "id": "2",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/97178/280/1/143855284-97178489-1559802229.jpg",
+      "title": "Odoky Men Color Block Round Neck Multicolo...",
+      "price": "439",
+      "mainPrice": "999",
+      "off": "56",
+      "queinty": 1
     },
     {
-      "id": "53",
-      "img": "https://cdn.shopclues.com/images1/thumbnails/73439/320/320/130264833-73439949-1664743506.jpg",
-      "title": "Bhuwal Fashion Red Lycra Saree...",
-      "price": "699",
-      "mainPrice": "2110",
-      "off": "67",
+      "id": "3",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/114604/280/1/152490260-114604641-1625652916.jpg",
+      "title": "Odoky Olive Black &Orange Round Neck T-...",
+      "price": "319",
+      "mainPrice": "999",
+      "off": "68",
+      "queinty": 1
+    },
+    {
+      "id": "42",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/90637/320/320/140074406-90637959-1660929891.jpg",
+      "title": "Fabster Women's smart fit straight multi Colour Kurti...",
+      "price": "479",
+      "mainPrice": "999",
+      "off": "52",
       "queinty": 1
     }
   ],

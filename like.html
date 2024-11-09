@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART</title>
+    <!-- <link rel="stylesheet" href="css/cart.css"> -->
+    
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        #likeBox{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 20px;
+ 
+}
+#main{
+    height: 480px;
+    padding: 10px;
+    border: 1px solid gainsboro;
+}
+#main #img{
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#main #img #like{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    font-size: 15px;
+}
+#main #text #logomain{
+    width: 40px;
+}
+#main #text #title{
+    color: rgb(94, 94, 94);
+    font-size: 13px;
+}
+#main #text #price{
+    font-weight: bold;
+    font-size: 18px;
+}
+#main #text #mainPrice{
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 5px;
+}
+#main #text #off{
+    font-weight: bold;
+    color: #24A3B5;
+    font-size: 15px;
+    margin-left: 5px;
+}
+#main #text #free{
+    font-size: 10px;
+    color: gray;
+}
+    </style>
+  
+</head>
+<body>
+    <div class="cartlogo bg-white p-5 ">
+        <a href="index.html" class="flex items-center">
+        <i class="fa-solid fa-arrow-left-long fa-xl" style="color: #000000;"></i>
+        <img src="asstes/download.svg" alt="" class="w-[10%] ms-3">
+    </a>
+    </div>
+    <div class="part1 flex justify-center bg-[#EFF7FA] p-5">
+    
+    <div class="main w-[90%] bg-white rounded-md">
+        <div class="maintag border-b">
+            <h1 class="font-bold text-[25px] ps-4 p-2">My list</h1>
+        </div>
+        <div id="likeBox" class="grid grid-col-3"></div>
+    </div>
+</div>
+  
+    <script src="js/like.js"></script>
+    <script src="js/totalitems.js"></script>
+</body>
+</html>
