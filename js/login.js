@@ -47,7 +47,7 @@ let a=document.querySelector("#creataccountmain")
 
    console.log(objt)
 
-   fetch(`http://localhost:3000/user `,{
+   fetch(`https://render-js02.onrender.com/user `,{
     method :'POST',
     Headers : {
         'content-type' : 'application/json'
@@ -64,7 +64,7 @@ document.querySelector("#signInmain").addEventListener("submit",(f)=>{
     let loginEmail=document.getElementById("loginEmail").value
     let loginPassword=document.getElementById("loginPassword").value
 
-    fetch('http://localhost:3000/user').then((r)=>{
+    fetch('https://render-js02.onrender.com/user').then((r)=>{
         return r.json()
     })
     .then((res)=>{

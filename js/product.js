@@ -1,6 +1,6 @@
 function product() {
 
-    fetch(`http://localhost:3000/product`)
+    fetch(`https://render-js02.onrender.com/product`)
         .then((r) => {
             return r.json()
         })

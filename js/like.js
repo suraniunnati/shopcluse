@@ -1,5 +1,5 @@
 function AddToCart(){
-    fetch(`http://localhost:3000/like`)
+    fetch(`https://render-js02.onrender.com/like`)
     .then((r)=>{return r.json()})
     .then((res)=>{
         console.log(res)
@@ -46,7 +46,7 @@ function Addcart(id,queinty, clickbtn) {
     }
     
 
-    fetch(`http://localhost:3000/like/${id}`, {
+    fetch(`https://render-js02.onrender.com/like/${id}`, {
         method: "PATCH",
         headers : {
             'Content-Type' : "application/json"
@@ -66,7 +66,7 @@ function Addcart(id,queinty, clickbtn) {
 }
 
 function del(id){
-    fetch(`http://localhost:3000/like/${id}`,{
+    fetch(`https://render-js02.onrender.com/like/${id}`,{
         method :'DELETE',
     })
     .then((res)=>{
