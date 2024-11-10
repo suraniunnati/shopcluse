@@ -200,6 +200,9 @@ footer{
     text-align: center;
     margin-top: 5px;
  }
+ #main{
+    width: 100%;
+ }
  }
  @media(max-width:480px){
     #total{
@@ -211,4 +214,13 @@ footer{
        text-align: center;
        margin-top: 5px;
     }
+    
+#singleBox{
+    height: auto;
+}
+    #main{
+        width: 100%;
+        flex-direction: column;
+    }
+  
  }

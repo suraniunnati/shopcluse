@@ -203,6 +203,54 @@
   ],
   "product2": [
     {
+      "id": "35",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/114479/320/320/152419020-114479981-1624357888.jpg",
+      "title": "green color kurti with embroidery",
+      "price": "599",
+      "mainPrice": "1499",
+      "off": "60"
+    },
+    {
+      "id": "36",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/117628/320/320/153520965-117628676-1716547306.jpg",
+      "title": "Women's Pure Cotton Printed Saree with Separate Blouse",
+      "price": "650",
+      "mainPrice": "1000",
+      "off": "35"
+    },
+    {
+      "id": "37",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/113413/280/1/152053707-113413190-1616152959.jpg",
+      "title": "Cotton Pakistani Style With Heavy Embroidery Patches",
+      "price": "6500",
+      "mainPrice": "00",
+      "off": "00"
+    },
+    {
+      "id": "38",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/117335/320/320/153429952-117335905-1692609818.jpg",
+      "title": "Cotton Pakistani Style With Heavy Embroidery Patches",
+      "price": "899",
+      "mainPrice": "1299",
+      "off": "31"
+    },
+    {
+      "id": "39",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/107415/320/320/149932066-107415438-1659181954.jpg",
+      "title": "Raabta RWT-001T Mustard Tees With Shoulder Contrast Sca",
+      "price": "334",
+      "mainPrice": "1250",
+      "off": "73"
+    },
+    {
+      "id": "40",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/105327/320/320/149167360-105327521-1664659530.jpg",
+      "title": "Raabta Women White Cold Shoulder Plain Top With Black K",
+      "price": "329",
+      "mainPrice": "999",
+      "off": "67"
+    },
+    {
       "id": "41",
       "img": "https://cdn.shopclues.com/images1/thumbnails/73438/320/320/130263874-73438773-1662584725.jpg",
       "title": "Bhuwal Fashion Beige Lycra Saree...",
@@ -329,6 +377,15 @@
       "price": "479",
       "mainPrice": "999",
       "off": "52",
+      "queinty": 1
+    },
+    {
+      "id": "7",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/111843/280/1/151346195-111843403-1604067622.jpg",
+      "title": "Odoky Multi Color Cotton Half Sleeve T-Shirt",
+      "price": "239",
+      "mainPrice": "1098",
+      "off": "78",
       "queinty": 1
     }
   ],
