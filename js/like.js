@@ -9,10 +9,10 @@ function AddToCart(){
 
 function cartView(arr){
     return arr.map((ele) => {
-        return `<a href="singleProduct.html?id=${ele.id}">
+        return `
            <div id="main">
          <div id="img">
-         <i class="fa-solid fa-heart" style="color: #d10000;" id="like"></i>
+         <i class="fa-solid fa-heart" style="color: #d10000;" id="like" onclick="del(${ele.id})"></i>
          <img src="${ele.img}">
          </div>
         <div id="text">
@@ -28,7 +28,7 @@ function cartView(arr){
        <i class="fa-solid fa-star fa-2xs" style="color: #dedede;"></i>
        <h6 id="free"><i class="fa-solid fa-truck"></i> Free Shipping</h6>
     </div>
-   </div></a>
+   </div>
         `
     }).join("")
 }

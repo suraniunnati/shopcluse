@@ -39,21 +39,22 @@ let a=document.querySelector("#creataccountmain")
       isvalid=false
    }
 
-   let objt={
+   let obj={
         username :username,
         email :email,
         password:password,
    }
 
-   console.log(objt)
+   console.log(obj)
 
-   fetch(`https://render-js02.onrender.com/user `,{
-    method :'POST',
-    Headers : {
-        'content-type' : 'application/json'
-    },
-    body : JSON.stringify(objt)
-   })
+   fetch(`https://render-js02.onrender.com/user`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(obj)
+      })
 
 })
 

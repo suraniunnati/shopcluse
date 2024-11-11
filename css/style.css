@@ -107,8 +107,6 @@ color: rgb(114, 114, 114);
     box-shadow: 0 0 20px #eee;
     border-radius: 0px 5px 5px 0px;
 }
-         
-
   #sd:hover {
     background-position: right center;
     color: #fff;
@@ -127,23 +125,18 @@ color: rgb(114, 114, 114);
  #bn{
     width: 100%;
     height: 100%;
-    border-radius: 10px;
-   
+    border-radius: 10px;  
  }
- 
  .v2{
     border-radius: 10px;
  }
- 
  .q1{
     width: 100%;
     height: 150px;
-    /* border: 1px solid black; */
     background-color: white;
     border-radius: 10px;
  }
  .q1 img{
-    /* width: 50%; */
     height:100%;
     overflow: hidden;
     border-radius: 10px;
@@ -190,7 +183,6 @@ color: rgb(114, 114, 114);
  .v22{
     width: 100%;
     height: 80px;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -206,12 +198,10 @@ color: rgb(114, 114, 114);
     
  }
  .r1:hover{
-    border-bottom:5px solid #24A3B5 ;
- }
- .r1 p:hover{
+    border-bottom:5px solid #24A3B5;
     color: #24A3B5;
-  
  }
+ 
  .sa1{
     width: 100%;
     height: 100px;
@@ -247,11 +237,9 @@ color: rgb(114, 114, 114);
 
    
  }
-
  .part2{
    width: 100%;
    height: 2%00px;
-   /* border: 1px solid black; */
    display: flex;
    justify-content: space-evenly;
    align-items: center;
@@ -263,18 +251,13 @@ color: rgb(114, 114, 114);
  }
 .part3{
    width: 100%;
-   /* height: 350px; */
-   /* border: 1px solid black; */
-   /* display: flex; */
    justify-content: space-evenly;
    align-items: center;
    
    background-color: #EFF7FA;
 }
 .cv1{
-   /* width: 30%; */
    height: 260px;
-   /* border: 1px solid black; */
    background-color: white;
 }
 .cv1 img{
