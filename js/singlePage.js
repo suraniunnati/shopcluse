@@ -2,7 +2,7 @@ function singlrPage(){
     let data = new URLSearchParams(window.location.search);
     let id = data.get("id");
 
-    fetch(`http://localhost:3000/product/${id}`)
+    fetch(`https://render-js02.onrender.com/product/${id}`)
     .then((r)=>{
         return r.json()
     })
@@ -23,7 +23,7 @@ function singlrPage2(){
   let data = new URLSearchParams(window.location.search);
   let id = data.get("id");
 
-  fetch(`http://localhost:3000/product2/${id}`)
+  fetch(`https://render-js02.onrender.com/product2/${id}`)
   .then((r)=>{
       return r.json()
   })
@@ -84,7 +84,7 @@ function singlePageView(ele){
 
 function AddCart(res){
 
-  fetch(`http://localhost:3000/cart?id=${res.id}`)
+  fetch(`https://render-js02.onrender.com/cart?id=${res.id}`)
   .then((r)=>{return r.json()})
   .then((Res)=>{
        if(Res.length > 0){
@@ -97,7 +97,7 @@ function AddCart(res){
         })
        }
        else{
-        fetch(`http://localhost:3000/cart`,
+        fetch(`https://render-js02.onrender.com/cart`,
           {
             method: "POST",
             headers: {
@@ -127,13 +127,13 @@ function AddCart(res){
  
 function AddLike(res){
 
-  fetch(`http://localhost:3000/like?id=${res.id}`)
+  fetch(`https://render-js02.onrender.com/like?id=${res.id}`)
   .then((r)=>{return r.json()})
   .then((Res)=>{
        if(Res.length > 0){
        }
        else{
-        fetch(`http://localhost:3000/like`,
+        fetch(`https://render-js02.onrender.com/like`,
           {
             method: "POST",
             headers: {

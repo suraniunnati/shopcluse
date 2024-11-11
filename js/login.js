@@ -39,21 +39,22 @@ let a=document.querySelector("#creataccountmain")
       isvalid=false
    }
 
-   let objt={
+   let obj={
         username :username,
         email :email,
         password:password,
    }
 
-   console.log(objt)
+   console.log(obj)
 
-   fetch(`http://localhost:3000/user `,{
-    method :'POST',
-    Headers : {
-        'content-type' : 'application/json'
-    },
-    body : JSON.stringify(objt)
-   })
+   fetch(`https://render-js02.onrender.com/user`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(obj)
+      })
 
 })
 
@@ -64,7 +65,7 @@ document.querySelector("#signInmain").addEventListener("submit",(f)=>{
     let loginEmail=document.getElementById("loginEmail").value
     let loginPassword=document.getElementById("loginPassword").value
 
-    fetch('http://localhost:3000/user').then((r)=>{
+    fetch('https://render-js02.onrender.com/user').then((r)=>{
         return r.json()
     })
     .then((res)=>{
