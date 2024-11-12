@@ -64,6 +64,16 @@
     font-size: 10px;
     color: gray;
 }
+@media(max-width:800px){
+    #likeBox{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:480px){
+    #likeBox{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
     </style>
   
 </head>
@@ -80,7 +90,9 @@
         <div class="maintag border-b">
             <h1 class="font-bold text-[25px] ps-4 p-2">My Wishlist</h1>
         </div>
-        <div id="likeBox" class="grid grid-col-3"></div>
+        <div id="likeBox">
+            <div id="text" class="flex flex-col items-center xl:w-[1300px]" ></div>
+        </div>
     </div>
 </div>
   

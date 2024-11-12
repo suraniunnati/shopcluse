@@ -1,4 +1,4 @@
-fetch(`http://localhost:3000/cart`)
+fetch(`https://render-js02.onrender.com/cart`)
       .then((r) => {
         return r.json();
       })
