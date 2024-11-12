@@ -2,8 +2,16 @@ function AddToCart(){
     fetch(`https://render-js02.onrender.com/like`)
     .then((r)=>{return r.json()})
     .then((res)=>{
+        if(res>=0){
+            document.getElementById("text").innerHTML = `
+            <img src="https://atlas-content-cdn.pixelsquid.com/stock-images/like-heart-shape-KaZBLyD-600.jpg" alt="Like heart shape" width="100px">
+            <p style="font-weight: bold;font-size: 20px;">Your Wishlist is Empty</p>
+        `;
+        }
+        else{
         console.log(res)
         document.getElementById("likeBox").innerHTML=cartView(res)
+    }
     })
 }
 

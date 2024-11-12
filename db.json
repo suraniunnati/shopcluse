@@ -6,7 +6,8 @@
       "title": "Odoky Axxitude Men Multicolor Round Neck...",
       "price": "409",
       "mainPrice": "1099",
-      "off": "63"
+      "off": "63",
+      "color": "red"
     },
     {
       "id": "2",
@@ -14,7 +15,8 @@
       "title": "Odoky Men Color Block Round Neck Multicolo...",
       "price": "439",
       "mainPrice": "999",
-      "off": "56"
+      "off": "56",
+      "color": "yellow"
     },
     {
       "id": "3",
@@ -22,7 +24,8 @@
       "title": "Odoky Olive Black &Orange Round Neck T-...",
       "price": "319",
       "mainPrice": "999",
-      "off": "68"
+      "off": "68",
+      "color": "green"
     },
     {
       "id": "4",
@@ -30,7 +33,8 @@
       "title": "Odoky Multicolor Cotton Color Block Roun...",
       "price": "269",
       "mainPrice": "1999",
-      "off": "87"
+      "off": "87",
+      "color": "brown"
     },
     {
       "id": "5",
@@ -38,7 +42,8 @@
       "title": "Odoky Color Blocked Men's Cotton Tshirt...",
       "price": "299",
       "mainPrice": "999",
-      "off": "70"
+      "off": "70",
+      "color": "blue"
     },
     {
       "id": "6",
@@ -46,7 +51,8 @@
       "title": "Odoky Multi Color Cotton Half Sleeve T-Shirt",
       "price": "299",
       "mainPrice": "999",
-      "off": "70"
+      "off": "70",
+      "color": "black"
     },
     {
       "id": "7",
@@ -54,7 +60,8 @@
       "title": "Odoky Multi Color Cotton Half Sleeve T-Shirt",
       "price": "239",
       "mainPrice": "1098",
-      "off": "78"
+      "off": "78",
+      "color": "yellow"
     },
     {
       "id": "8",
@@ -62,7 +69,8 @@
       "title": "Odoky Men Black Printed Snake Round Neck...",
       "price": "259",
       "mainPrice": "999",
-      "off": "74"
+      "off": "74",
+      "color": "black"
     },
     {
       "id": "9",
@@ -70,7 +78,8 @@
       "title": "Odoky Men's Ganesha Printed Half Sleeves...",
       "price": "299",
       "mainPrice": "999",
-      "off": "70"
+      "off": "70",
+      "color": "gray"
     },
     {
       "id": "10",
@@ -78,7 +87,8 @@
       "title": "ROARERS Men's Silver Hooded T-Shirt",
       "price": "349",
       "mainPrice": "1099",
-      "off": "68"
+      "off": "68",
+      "color": "gray"
     },
     {
       "id": "11",
@@ -86,7 +96,8 @@
       "title": "Half Sleeve Polyester Round Neck Printed...",
       "price": "139",
       "mainPrice": "999",
-      "off": "86"
+      "off": "86",
+      "color": "yellow"
     },
     {
       "id": "12",
@@ -94,7 +105,8 @@
       "title": "DNA Solid Men T Shirt half sleeve fabric 100...",
       "price": "1600",
       "mainPrice": "2000",
-      "off": "20"
+      "off": "20",
+      "color": "white"
     },
     {
       "id": "13",
@@ -102,7 +114,8 @@
       "title": "MEN'S CASUAL POLO TSHIRT",
       "price": "1599",
       "mainPrice": "2999",
-      "off": "47"
+      "off": "47",
+      "color": "red"
     },
     {
       "id": "14",
@@ -110,7 +123,8 @@
       "title": "Sthulas Printed Men Round Neck Black T-...",
       "price": "699",
       "mainPrice": "1299",
-      "off": "46"
+      "off": "46",
+      "color": "black"
     },
     {
       "id": "15",
@@ -118,7 +132,8 @@
       "title": "UDNAG Unisex Round Neck Graphic 'Deat...",
       "price": "399",
       "mainPrice": "1999",
-      "off": "80"
+      "off": "80",
+      "color": "white"
     },
     {
       "id": "16",
@@ -126,7 +141,8 @@
       "title": "Raabta Fashion Black Yellow Grey Patchw...",
       "price": "532",
       "mainPrice": "1699",
-      "off": "69"
+      "off": "69",
+      "color": "gray"
     },
     {
       "id": "17",
@@ -134,7 +150,8 @@
       "title": "T Shirt",
       "price": "499",
       "mainPrice": "999",
-      "off": "50"
+      "off": "50",
+      "color": "aqua"
     },
     {
       "id": "18",
@@ -142,7 +159,8 @@
       "title": "Myky White Regular Fit Solid For Men Pack...",
       "price": "899",
       "mainPrice": "1998",
-      "off": "55"
+      "off": "55",
+      "color": "white"
     },
     {
       "id": "19",
@@ -150,7 +168,8 @@
       "title": "FastB Men Printed Round Neck Black T-Sh...",
       "price": "649",
       "mainPrice": "899",
-      "off": "28"
+      "off": "28",
+      "color": "black"
     },
     {
       "id": "20",
@@ -158,7 +177,8 @@
       "title": "Ruggstar Men Grey Round Neck Polyester T...",
       "price": "179",
       "mainPrice": "699",
-      "off": "74"
+      "off": "74",
+      "color": "aqua"
     },
     {
       "id": "21",
@@ -166,7 +186,8 @@
       "title": "Red Leaf Navy Colour block Men dry-fit Ts...",
       "price": "199",
       "mainPrice": "599",
-      "off": "67"
+      "off": "67",
+      "color": "blue"
     },
     {
       "id": "22",
@@ -174,7 +195,8 @@
       "title": "Ruggstar best hot selling cotton t-shirt for...",
       "price": "169",
       "mainPrice": "599",
-      "off": "72"
+      "off": "72",
+      "color": "gray"
     },
     {
       "id": "23",
@@ -182,7 +204,8 @@
       "title": "29K Mens Round Neck Half Sleeve Printed...",
       "price": "179",
       "mainPrice": "499",
-      "off": "64"
+      "off": "64",
+      "color": "aqua"
     },
     {
       "id": "24",
@@ -190,7 +213,8 @@
       "title": "FastBend 4 x 4 offroad expedition Tshirt...",
       "price": "799",
       "mainPrice": "899",
-      "off": "11"
+      "off": "11",
+      "color": "black"
     },
     {
       "id": "25",
@@ -198,7 +222,8 @@
       "title": "FastB Men Typography Round Neck White...",
       "price": "649",
       "mainPrice": "899",
-      "off": "28"
+      "off": "28",
+      "color": "white"
     }
   ],
   "product2": [
@@ -208,7 +233,8 @@
       "title": "green color kurti with embroidery",
       "price": "599",
       "mainPrice": "1499",
-      "off": "60"
+      "off": "60",
+      "color": "green"
     },
     {
       "id": "36",
@@ -216,7 +242,8 @@
       "title": "Women's Pure Cotton Printed Saree with Separate Blouse",
       "price": "650",
       "mainPrice": "1000",
-      "off": "35"
+      "off": "35",
+      "color": "gray"
     },
     {
       "id": "37",
@@ -224,7 +251,8 @@
       "title": "Cotton Pakistani Style With Heavy Embroidery Patches",
       "price": "6500",
       "mainPrice": "00",
-      "off": "00"
+      "off": "00",
+      "color": "blue"
     },
     {
       "id": "38",
@@ -232,7 +260,8 @@
       "title": "Cotton Pakistani Style With Heavy Embroidery Patches",
       "price": "899",
       "mainPrice": "1299",
-      "off": "31"
+      "off": "31",
+      "color": "pink"
     },
     {
       "id": "39",
@@ -240,7 +269,8 @@
       "title": "Raabta RWT-001T Mustard Tees With Shoulder Contrast Sca",
       "price": "334",
       "mainPrice": "1250",
-      "off": "73"
+      "off": "73",
+      "color": "yellow"
     },
     {
       "id": "40",
@@ -248,7 +278,8 @@
       "title": "Raabta Women White Cold Shoulder Plain Top With Black K",
       "price": "329",
       "mainPrice": "999",
-      "off": "67"
+      "off": "67",
+      "color": "white"
     },
     {
       "id": "41",
@@ -256,7 +287,8 @@
       "title": "Bhuwal Fashion Beige Lycra Saree...",
       "price": "879",
       "mainPrice": "2599",
-      "off": "66"
+      "off": "66",
+      "color": "yellow"
     },
     {
       "id": "42",
@@ -264,7 +296,8 @@
       "title": "Fabster Women's smart fit straight multi Colour Kurti...",
       "price": "479",
       "mainPrice": "999",
-      "off": "52"
+      "off": "52",
+      "color": "blue"
     },
     {
       "id": "43",
@@ -272,7 +305,8 @@
       "title": "Bhuwal Fashion Red Lycra Saree...",
       "price": "699",
       "mainPrice": "2110",
-      "off": "67"
+      "off": "67",
+      "color": "red"
     },
     {
       "id": "44",
@@ -280,7 +314,8 @@
       "title": "Top Ethnic Present Blue Beautiful Gown",
       "price": "899",
       "mainPrice": "1499",
-      "off": "40"
+      "off": "40",
+      "color": "blue"
     },
     {
       "id": "45",
@@ -288,7 +323,8 @@
       "title": "Ishrin Dress Materials",
       "price": "567",
       "mainPrice": "2499",
-      "off": "77"
+      "off": "77",
+      "color": "gray"
     },
     {
       "id": "46",
@@ -296,7 +332,8 @@
       "title": "Bhuwal Fashion Chanderi Saree-BF5061PINK",
       "price": "519",
       "mainPrice": "1999",
-      "off": "74"
+      "off": "74",
+      "color": "pink"
     },
     {
       "id": "47",
@@ -304,7 +341,8 @@
       "title": "BHAGYASHRAY Solid RED Crepe and Rasal Net Straigth Kur",
       "price": "339",
       "mainPrice": "1999",
-      "off": "83"
+      "off": "83",
+      "color": "red"
     },
     {
       "id": "48",
@@ -312,7 +350,8 @@
       "title": "Yuvaa Flared/A-Line Gown (Pink)",
       "price": "649",
       "mainPrice": "1299",
-      "off": "50"
+      "off": "50",
+      "color": "pink"
     },
     {
       "id": "49",
@@ -320,7 +359,8 @@
       "title": "Green Vanarasi Silk With Blouse And Body Embroidery",
       "price": "1500",
       "mainPrice": "1600",
-      "off": "6"
+      "off": "6",
+      "color": "green"
     },
     {
       "id": "50",
@@ -328,30 +368,21 @@
       "title": "Cholii Black Owl Womens Cotton Satin Black Deep V-Neck",
       "price": "1999",
       "mainPrice": "2500",
-      "off": "20"
+      "off": "20",
+      "color": "black"
     }
   ],
   "cart": [
     {
-      "id": "18",
-      "img": "https://cdn.shopclues.com/images1/thumbnails/94846/280/1/142479694-94846536-1662624714.jpg",
-      "title": "Myky White Regular Fit Solid For Men Pack...",
-      "price": "899",
-      "mainPrice": "1998",
-      "off": "55",
+      "id": "6",
+      "img": "https://cdn.shopclues.com/images1/thumbnails/111843/280/1/151346207-111843447-1604067652.jpg",
+      "title": "Odoky Multi Color Cotton Half Sleeve T-Shirt",
+      "price": "299",
+      "mainPrice": "999",
+      "off": "70",
+      "color": "black",
       "queinty": 1
     },
-    {
-      "id": "42",
-      "img": "https://cdn.shopclues.com/images1/thumbnails/90637/320/320/140074406-90637959-1660929891.jpg",
-      "title": "Fabster Women's smart fit straight multi Colour Kurti...",
-      "price": "479",
-      "mainPrice": "999",
-      "off": "52",
-      "queinty": 1
-    }
-  ],
-  "like": [
     {
       "id": "2",
       "img": "https://cdn.shopclues.com/images1/thumbnails/97178/280/1/143855284-97178489-1559802229.jpg",
@@ -359,35 +390,11 @@
       "price": "439",
       "mainPrice": "999",
       "off": "56",
-      "queinty": 1
-    },
-    {
-      "id": "3",
-      "img": "https://cdn.shopclues.com/images1/thumbnails/114604/280/1/152490260-114604641-1625652916.jpg",
-      "title": "Odoky Olive Black &Orange Round Neck T-...",
-      "price": "319",
-      "mainPrice": "999",
-      "off": "68",
-      "queinty": 1
-    },
-    {
-      "id": "42",
-      "img": "https://cdn.shopclues.com/images1/thumbnails/90637/320/320/140074406-90637959-1660929891.jpg",
-      "title": "Fabster Women's smart fit straight multi Colour Kurti...",
-      "price": "479",
-      "mainPrice": "999",
-      "off": "52",
-      "queinty": 1
-    },
-    {
-      "id": "7",
-      "img": "https://cdn.shopclues.com/images1/thumbnails/111843/280/1/151346195-111843403-1604067622.jpg",
-      "title": "Odoky Multi Color Cotton Half Sleeve T-Shirt",
-      "price": "239",
-      "mainPrice": "1098",
-      "off": "78",
+      "color": "yellow",
       "queinty": 1
     }
   ],
+  "like": [],
   "user": []
+  
 }
