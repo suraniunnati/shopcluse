@@ -94,3 +94,10 @@ document.querySelector("#signInmain").addEventListener("submit",(f)=>{
         console.log(err)
     })
 })
+
+document.getElementById("chack").addEventListener("click",()=>{
+   Swal.fire({
+      text: "Add successfule",
+      icon: "success"
+    });
+})
