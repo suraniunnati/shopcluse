@@ -52,4 +52,12 @@ document.querySelector("#payE").addEventListener("click", () => {
   document.querySelector("#cash").style.display = "block";
 });
 
+document.getElementById("ses").addEventListener("click",()=>{
+  Swal.fire({
+     text: "payment successfule",
+     icon: "success"
+   });
+})
+
 });
+
