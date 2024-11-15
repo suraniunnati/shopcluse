@@ -61,3 +61,18 @@
     color: gray;
     font-size: 10px;
 }
+
+@media(max-width:600px){
+    #main #img{
+        width: 100%;
+    }
+    #main #text{
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+           }
+    #itemTotal{
+        text-align: center;
+      
+    }
+}

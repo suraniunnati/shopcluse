@@ -52,12 +52,37 @@ document.querySelector("#payE").addEventListener("click", () => {
   document.querySelector("#cash").style.display = "block";
 });
 
+
+
+});
+
 document.getElementById("ses").addEventListener("click",()=>{
   Swal.fire({
      text: "payment successfule",
      icon: "success"
    });
 })
-
-});
-
+document.getElementById("sesC").addEventListener("click",()=>{
+  Swal.fire({
+     text: "payment successfule",
+     icon: "success"
+   });
+})
+document.getElementById("sesw").addEventListener("click",()=>{
+  Swal.fire({
+     text: "payment successfule",
+     icon: "success"
+   });
+})
+document.getElementById("sesc").addEventListener("click",()=>{
+  Swal.fire({
+     text: "payment successfule",
+     icon: "success"
+   });
+})
+document.getElementById("sesn").addEventListener("click",()=>{
+  Swal.fire({
+     text: "payment successfule",
+     icon: "success"
+   });
+})

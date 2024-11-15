@@ -17,8 +17,8 @@
         <img src="asstes/download.svg" alt="Logo" class="w-[8%] h-[45px] mt-1">
     </a>
 
-    <div class="paymentBox border flex items-center w-[80%] h-[90vh] shadow-md m-auto bg-white">
-        <div class="payment1 w-[40%] border-e h-[80%] p-5">
+    <div class="paymentBox border xl:flex items-center w-[80%] xl:h-[90vh] shadow-md m-auto bg-white">
+        <div class="payment1 xl:w-[40%] border-e h-[80%] p-5">
             <div class="content w-full p-5">
                 <p class="text-[17px] font-bold">
                     <img src="asstes/icon.svg" style="width: 30px; height: 30px;" alt="Icon" id="img2" class="inline-block mr-2">
@@ -59,7 +59,7 @@
             </div>
         </div>
         
-        <div class="payment2 w-[60%] h-auto p-5">
+        <div class="payment2 xl:w-[60%] h-auto p-5">
             <!-- UPI Section -->
             <div id="upi" class="p-5 shadow-lg flex flex-col items-center" >
                 <h2>Pay with UPI QR Code</h2>
@@ -73,8 +73,8 @@
                     <strong>Note:</strong> Your daily UPI transaction limit is ₹1,00,000 or as per your bank's limit.
                 </p>
                 <br>
-                <button id="ses" class="w-[40%] p-3 bg-gradient-to-r from-orange-300 to-orange-600 text-white rounded-lg text-[20px]">Place Order</button>
-            </div>
+               
+                <button id="ses" class="w-[40%] p-3 bg-gradient-to-r from-orange-300 to-orange-600 text-white rounded-lg text-[20px]">Place Order</button>           </div>
 
             <!-- Card Section -->
             <div id="card" style="display: none;">
@@ -219,7 +219,7 @@
             
                         </div>
             
-                        <input id="ses" type="submit" value="Proceed to Checkout" 
+                        <input id="sesC" type="submit" value="Proceed to Checkout" 
                                class="submit_btn bg-[#24A3B5]">
                     </form>
             
@@ -311,7 +311,7 @@
                     <p class="text-[gray]"><span class="text-black font-bold text-[15px]">Get 100% CashBack</span> instantly on prepaid orders! Place order using Debit/Credit cards, Net Banking, Wallets, UPI etc.. and get CluesBucks+ instantly</p>
                 </div>      
                 <br>
-                <button id="ses" class="w-[40%] p-3 bg-gradient-to-r from-orange-300 to-orange-600 text-white rounded-lg text-[20px]">Place Order</button>
+                <button id="sesn" class="w-[40%] p-3 bg-gradient-to-r from-orange-300 to-orange-600 text-white rounded-lg text-[20px]">Place Order</button>
             </div>
             
             <!-- Wallets Section -->
@@ -344,7 +344,7 @@
                         <p class="text-[gray]"><span class="text-black font-bold text-[15px]">Get 100% CashBack</span> instantly on prepaid orders! Place order using Debit/Credit cards, Net Banking, Wallets, UPI etc.. and get CluesBucks+ instantly</p>
                     </div>  
                     <br>
-                    <button id="ses" class="w-[40%] p-3 bg-gradient-to-r from-orange-300 to-orange-600 text-white rounded-lg text-[20px]">Place Order</button>
+                    <button id="sesw" class="w-[40%] p-3 bg-gradient-to-r from-orange-300 to-orange-600 text-white rounded-lg text-[20px]">Place Order</button>
             </div>
             
             <!-- Cash on Delivery Section -->
@@ -357,13 +357,14 @@
                     <p class="text-[gray]"><span class="text-black font-bold text-[15px]">Get 100% CashBack</span> instantly on prepaid orders! Place order using Debit/Credit cards, Net Banking, Wallets, UPI etc.. and get CluesBucks+ instantly</p>
                 </div>  
                 <br>
-                <button id="ses" class="w-[40%] p-3 bg-gradient-to-r from-orange-300 to-orange-600 text-white rounded-lg text-[20px]">Place Order</button>
+                <button id="sesc" class="w-[40%] p-3 bg-gradient-to-r from-orange-300 to-orange-600 text-white rounded-lg text-[20px]">Place Order</button>
                 <br><br>
                 <p class="text-[gray] text-[10px]"><i class="fa-solid fa-shield-halved" style="color: #8f8f8f;"></i> Secure Payment, Easy Returns & Refunds</p>
             </div>
         </div>
     </div>
   
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/payment.js"></script>
 </body>
 </html>

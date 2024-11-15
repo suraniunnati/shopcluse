@@ -49,12 +49,25 @@ color: rgb(114, 114, 114);
     align-items: center;
 }
 .s3{
-   
+   position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+#total{
+    border-radius: 50%;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    background-color: #FF675E;
+    color: white;
+    position: absolute;
+    top: 22%;
+    right: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
 .sub1{
     width: 100%;
 }
