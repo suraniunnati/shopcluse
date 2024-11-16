@@ -109,10 +109,6 @@ color: rgb(114, 114, 114);
     width: 80px;
 }
 
-#xc{
-    background-color: #E9F6F7;
-    border-radius: 5px;
-}
 #sd{
     background-image: linear-gradient(to right, #fe8c00 0%, #f83600  51%, #fe8c00  100%);
     transition: 0.5s;
